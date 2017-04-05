@@ -1,0 +1,4 @@
+include ':goldencity-app', ':goldencity-core', ':goldencity-common'
+project(':goldencity-app').projectDir = new File('app')
+project(':goldencity-core').projectDir = new File('core')
+project(':goldencity-common').projectDir = new File('common')
